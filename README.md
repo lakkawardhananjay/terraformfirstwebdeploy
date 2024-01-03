@@ -9,12 +9,11 @@ Cloud CDN
 Load Balancer
 Cloud Storage
 
-Prerequisites
+Prerequisite
+1. A Google Cloud Platform account with billing enabled
+2. Terraform installed on your local machine
+3. Google Cloud SDK installed and authenticated
 
-A Google Cloud Platform account with billing enabled
-Terraform installed on your local machine
-Google Cloud SDK installed and authenticated
-Getting Started
 
 # Clone this repository
 git clone https://github.com/lakkawardhananjay/terraformfirstwebdeploy.git
