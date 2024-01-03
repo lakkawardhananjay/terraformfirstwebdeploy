@@ -18,7 +18,7 @@ Prerequisite
 # Clone this repository
 git clone https://github.com/lakkawardhananjay/terraformfirstwebdeploy.git
 
-Configure Terraform variables:
+# Configure Terraform variables:
 
 Create a terraform.tfvars file or set environment variables with the following values:
 
@@ -41,7 +41,7 @@ terraform plan:
 terraform apply:
      executes the actions proposed in a Terraform plan
 
-**Terraform Configuration**
+# **Terraform Configuration**
 The main configuration files in this repository are:
 main.tf: Contains the core configuration for the website deployment.
 variables. tf: Defines variables that can be customized for your specific deployment.
@@ -50,9 +50,7 @@ variables. tf: Defines variables that can be customized for your specific deploy
 Testing: To test your website, access it using the assigned load balancer IP address or domain name.
 Updating: Make changes to the Terraform configuration files and re-run Terraform apply to update the infrastructure.
 Destroying: To remove the deployed resources, run terraform destroy.
-Best Practices
-
-
+#Best Practices
 Refer to the Terraform documentation for troubleshooting assistance.
 Check the GCP console for logs and error messages.
 Seek help from the Terraform community or GCP support channels if needed.
