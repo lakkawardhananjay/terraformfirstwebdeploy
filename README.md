@@ -16,7 +16,7 @@ Terraform installed on your local machine
 Google Cloud SDK installed and authenticated
 Getting Started
 
-#Clone this repository:
+# Clone this repository
 git clone https://github.com/lakkawardhananjay/terraformfirstwebdeploy.git
 
 Configure Terraform variables:
