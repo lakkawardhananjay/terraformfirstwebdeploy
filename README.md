@@ -32,6 +32,7 @@ domain_name: The domain name you want to use for your website (e.g., www.example
 bucket_name: The name of the Cloud Storage bucket to store your website content
 
 Initialize Terraform:
+
 BASH
     "terraform init":-prepares a working directory for other commands by setting up plugins, modules, and backend configurations.
 BASH
@@ -39,7 +40,7 @@ BASH
 BASH
     "terraform apply":-executes the actions proposed in a Terraform plan
 
-Terraform Configuration
+**Terraform Configuration**
 The main configuration files in this repository are:
 main.tf: Contains the core configuration for the website deployment.
 variables.tf: Defines variables that can be customized for your specific deployment.
