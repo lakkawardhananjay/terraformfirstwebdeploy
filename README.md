@@ -30,23 +30,25 @@ domain_name: The domain name you want to use for your website (e.g., www.example
 
 bucket_name: The name of the Cloud Storage bucket to store your website content
 
-Initialize Terraform:
+# Initialize Terraform
 
-BASH
-    "terraform init":-prepares a working directory for other commands by setting up plugins, modules, and backend configurations.
-BASH
-    "terraform plan":-creates an execution plan, which lets you preview the changes that Terraform plans to make to your infrastructure.
-BASH
-    "terraform apply":-executes the actions proposed in a Terraform plan
+terraform init:
+    prepares a working directory for other commands by setting up plugins, modules, and backend configurations.
+
+terraform plan:
+    creates an execution plan, which lets you preview the changes that Terraform plans to make to your infrastructure.
+
+terraform apply:
+     executes the actions proposed in a Terraform plan
 
 **Terraform Configuration**
 The main configuration files in this repository are:
 main.tf: Contains the core configuration for the website deployment.
-variables.tf: Defines variables that can be customized for your specific deployment.
+variables. tf: Defines variables that can be customized for your specific deployment.
 
 
 Testing: To test your website, access it using the assigned load balancer IP address or domain name.
-Updating: Make changes to the Terraform configuration files and re-run terraform apply to update the infrastructure.
+Updating: Make changes to the Terraform configuration files and re-run Terraform apply to update the infrastructure.
 Destroying: To remove the deployed resources, run terraform destroy.
 Best Practices
 
