@@ -1,6 +1,7 @@
 # Website Deployment with Google Cloud Services and Terraform
 
 Overview
+![SERVICES USED (3)](https://github.com/lakkawardhananjay/terraformfirstwebdeploy/assets/92675267/e5f46311-356e-4a61-b6a1-a6ee5757a02d)
 
 This repository contains Terraform configuration files to deploy a highly available and scalable website on Google Cloud Platform (GCP) using the following services:
 
